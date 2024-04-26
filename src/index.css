@@ -20,6 +20,8 @@
     .max-container {
         max-width: 1380px;
         margin: 0 auto;
+        padding: 0 20px;
+        width: 100%;
     }
 
     .nav-header {
@@ -30,12 +32,83 @@
         @apply relative top-3
     }
 
-    
-}
-
-
-/* @layer utilities {
-    .padding-x {
-        @apply px-0
+    .bar-section .card-item-1 {
+        position: absolute;
+        bottom: 32%;
+        left: -28%;
     }
-} */
+
+    .bar-section .card-item-2 {
+        position: absolute;
+        bottom: 56%;
+        left: 1%;
+    }
+
+    .bar-section .card-item-3 {
+        position: absolute;
+        top: 8%;
+        right: 25%;
+    }
+
+    .bar-section .card-item-1::after {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-feature-settings: "tnum";
+        color: #082552;
+        position: absolute;
+        top: 0;
+        right: -52px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        text-align: center;
+        background-color: #fff;
+        font-weight: 700;
+        border: 1px solid rgba(8, 37, 82, .07);
+        box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
+        content: "1" !important;
+    }
+    .bar-section .card-item-2::after {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-feature-settings: "tnum";
+        color: #082552;
+        position: absolute;
+        top: 0;
+        right: -52px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        text-align: center;
+        background-color: #fff;
+        font-weight: 700;
+        border: 1px solid rgba(8, 37, 82, .07);
+        box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
+        content: "2" !important;
+    }
+    .bar-section .card-item-3::after {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-feature-settings: "tnum";
+        color: #082552;
+        position: absolute;
+        top: 0;
+        right: -52px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        text-align: center;
+        background-color: #fff;
+        font-weight: 700;
+        border: 1px solid rgba(8, 37, 82, .07);
+        box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
+        content: "3" !important;
+    }
+
+}

@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <>
-        <Link to="" alt="" className="absolute w-full font-poppins flex justify-center items-center text-slate-500 bg-pink-200/75 h-9 py-2 px-0 text-10xl">
+        <Link to="#" className="absolute w-full font-poppins flex justify-center items-center text-slate-500 bg-pink-200/75 h-9 text-10xl">
             &nbsp; Check out our latest Simplified Report.
             <strong className="font-firma font-extrabold text-slate-600">&nbsp; Get it here ↗</strong>
         </Link>
