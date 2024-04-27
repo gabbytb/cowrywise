@@ -23,34 +23,52 @@
         padding: 0 20px;
         width: 100%;
     }
-
     .nav-header {
-        @apply absolute top-30 left-0 right-0 h-75
+        @apply top-7.5 left-0 right-0 h-18 z-100 
     }
-    
-    button.has-dropdown svg {
-        @apply relative top-3
+    .brand svg {
+        @apply h-7 w-9.6
+    }
+    .nav-menu {
+        @apply h-14.2
+    }
+    .has-dropdown::after {             
+        @apply content-[''] absolute top-1.25 -right-19.2 h-4.5 w-4.5 bg-dropdown bg-no-repeat
+    }
+    .menu-right {
+        @apply text-11xl font-firma -tracking-extratight
+    }
+    .menu-right a:first-child {
+        @apply flex items-center text-blue-500 h-11 mr-30
+    }
+    .menu-right a:last-child {
+        @apply flex items-center text-base text-white bg-blue-500 h-11 px-4.5 rounded-md hover:shadow-3xl focus:shadow-3xl
+    }
+    .left-section--one {
+        @apply min-h-98 mt-30 ml-30
+    }
+    .right-section--one {
+        @apply pt-60
     }
 
-    .bar-section .card-item-1 {
+
+    /* Unchecked */
+    .section-two .card-item-1 {
         position: absolute;
         bottom: 32%;
         left: -28%;
     }
-
-    .bar-section .card-item-2 {
+    .section-two .card-item-2 {
         position: absolute;
         bottom: 56%;
         left: 1%;
     }
-
-    .bar-section .card-item-3 {
+    .section-two .card-item-3 {
         position: absolute;
         top: 8%;
         right: 25%;
     }
-
-    .bar-section .card-item-1::after {
+    .section-two .card-item-1::after {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -70,7 +88,7 @@
         box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
         content: "1" !important;
     }
-    .bar-section .card-item-2::after {
+    .section-two .card-item-2::after {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -90,7 +108,7 @@
         box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
         content: "2" !important;
     }
-    .bar-section .card-item-3::after {
+    .section-two .card-item-3::after {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -110,5 +128,25 @@
         box-shadow: 1px 1px 2px rgba(8, 37, 82, .1);
         content: "3" !important;
     }
+    /* Unchecked */
+    /* Section two Checked */
+    .card-items {
+        @apply flex opacity-100 w-300 
+    }
+    .card-item {
+        @apply bg-white border rounded-xl pt-4 pb-6 px-6 w-300
+    }
+    .card-text {
+        @apply text-13xl/14.8 font-semibold font-poppins tracking-extratighter text-slate-700
+    }
+    .card-subtext {
+        @apply mt-2 mb-0 mx-0 text-sm text-slate-500/75 font-firma
+    }
+    /* Section two Checked */
 
+
+
+    /* Section three */
+    
+    /* Section three */
 }

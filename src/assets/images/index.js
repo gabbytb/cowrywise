@@ -5,10 +5,10 @@ import SecondImage from "./SecondImage";
 
 
 
+
 export {
     firstSlide,
     secondSlide,
     thirdSlide,
     SecondImage,
-
 }
