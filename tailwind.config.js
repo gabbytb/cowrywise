@@ -96,11 +96,10 @@ module.exports = {
         '100': "100px",
       },
       gridTemplateColumns: {
-        "16": "706.312px 724px",
+        "16": "706.312px 724px",  // UseCase: section-two
       },
       boxShadow: {
-      "3xl": "0 8px 12px -1px rgba(0, 102, 245, .28)",
-
+        "3xl": "0 8px 12px -1px rgba(0, 102, 245, .28)",
       },
       opacity: {
         '6': ".6",
