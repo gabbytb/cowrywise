@@ -83,5 +83,20 @@ module.exports = {
       tightest: '-0.065em',
     },
   },
-  plugins: [],
+  // plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const new_UtilityClasses = {
+        '.no-scrollbar::-webkit-scrollbar': {
+          display: 'none',
+        },
+        '.no-scrollbar': {
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none',
+        },
+      };
+
+      addUtilities(new_UtilityClasses, ['responsive', 'hover']);
+    },
+  ],
 }
