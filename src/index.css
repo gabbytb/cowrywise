@@ -111,4 +111,9 @@
         content: "3" !important;
     }
 
+    .investments-section {
+        background-image: url('/src/assets/images/return-pattern.svg');
+        background-repeat: no-repeat;
+    }
+
 }
