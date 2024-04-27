@@ -1,5 +1,8 @@
 import { ButtonLink } from "../components";
 import { SecondImage } from "../assets/images";
+// import { sectionTwoCards } from "../constants";
+
+
 
 
 
@@ -11,8 +14,8 @@ const HomeSectionTwo = () => {
             <div className="grid grid-cols-16 gap-x-10">
 
                 <div className="flex flex-col pt-5">
-                    <h2 className="text-11xl/15 font-firma font-semibold text-sky-950/100 tracking-tightest mt-66 mb-2.5 h-42 -ml-0.5">
-                        Get a <span className="font-sans font-extralight italic">little</span>&nbsp; richer each day
+                    <h2 className="text-11xl/15 font-firma font-semibold text-sky-950/100 tracking-tightest mt-66 mb-2.5 h-42 -ml-0.5 opacity-100 visible">
+                        Get a <span className="opacity-100 visible">little </span>&nbsp; richer each day
                     </h2>
                     <h5 className="text-3xl font-medium tracking-tightened text-sky-950/100 mt-6 mb-21 pr-120">One small step today, a giant leap for tomorrow.</h5>
                     <ButtonLink linkURL="https://cowrywise.com/choose-account" label="Start your financial journey" />
@@ -20,7 +23,7 @@ const HomeSectionTwo = () => {
 
 
                 <div className="relative">
-                    <div className="relative w-720">
+                    <div className="relative h-48.5 w-720">
                         <SecondImage />
                     </div>
                     
