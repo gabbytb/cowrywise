@@ -106,7 +106,7 @@ module.exports = {
       },
       zIndex: {
         "1": "1",               // UseCase: section-one
-        '100': '100',
+        '100': '100',           // UseCase: 
       }
     },
     letterSpacing: {
