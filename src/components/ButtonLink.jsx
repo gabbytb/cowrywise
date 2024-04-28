@@ -2,12 +2,17 @@ import { Link } from "react-router-dom"
 
 
 
-const ButtonLink = ({ linkURL, label }) => {
+const ButtonLink = ({ linkURL, label, btnProps, textProps }) => {
   return (
-    <Link to={linkURL} className="mt-5 px-4.5 min-h-12 w-258 flex justify-center items-center text-white text-base/17 font-semibold bg-blue-600 rounded-md">
-        {label}
-    </Link>
+    <>
+      {
+        btnProps &&
+          <Link to={linkURL} className={`flex justify-center items-center rounded-md ${btnProps ? `${btnProps} ${textProps}` : ''}`}>
+              {label}
+          </Link>
+      }
+    </>
   )
-}
+};
 
-export default ButtonLink
+export default ButtonLink;

@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors: {
+        'transparent-white': "hsla(0, 0%, 100%, .7)",
+        'currency': "#6c82a3",
+      },
       fontSize: {
         "10xl": "0.8125rem",      // Usecase: top-bar.Link
         "11xl": "0.975rem",       // Usecase: menu-right.link
@@ -11,6 +15,8 @@ module.exports = {
         "14xl": "0.9625rem",      // Usecase: nav-menu li button
         "15xl": "0.9375rem",
         "16xl": "7.5rem",         // UseCase: section-three
+        "17xl": "2.4375rem",
+        "18xl": "4rem",           // UseCase: section-four
         
       },
       height: {
@@ -25,19 +31,25 @@ module.exports = {
         
         "78": "4.875rem",
         "42": "10.5625rem",
-      
+        "42.2": "14.5469rem",     // UseCase: section-four
+        "42.5": "17.3691rem",     // UseCase: section-four
+        "42.8": "20rem",          // UseCase: section-four
+        "43": "20.3467rem",       // UseCase: section-three
+        "43.5": "25rem",          // UseCase: section-four
         "48.5": "58.75em",        // Usecase: section-one
         "650": "40.625rem",       // Usecase: section-one slide
         "720": "45rem",
+        "730": "47.9941rem",
         "780": "48.75rem",
         "830": "51.875rem",
         "840": "52.5rem",         // UseCase: section-one div-2
         "850": "53.125rem",       // UseCase: section-one
-        "870": "56.3945rem",      // UseCase: section-three
         "100": "1042.83px",       // UseCase: section-three bg-height
       },
       minHeight: {
+        "42.8": "20rem",
         "98": "40.625rem",        // UseCase: left-section--one
+        "99": "56.3945rem",      // UseCase: section-three
       },
       maxHeight: {
         "98": "58.9141rem",       // UseCase: section-three
@@ -50,12 +62,20 @@ module.exports = {
         "258": "16.1699rem",
         "300": "18.75rem",        // UseCase: section-two card-item
         // "310": "19.3789rem",
+        "108": "30rem",
         "320": "30.875rem",       // UseCase: section-three cash-input
         "520": "32.5rem",
+        "530": "50rem",
+        "500": "120%",
+      },
+      minWidth: {
+        "128": "19.9609rem",
       },
       maxWidth: {
         '98': '80%',
         '99': '310.062px',
+        "105": "41.6666666667%",   // UseCase: section-four
+        "108": "30rem",
         "110": "54.5625rem",
       },
       margin: {
@@ -66,9 +86,11 @@ module.exports = {
         '21': '1.3125rem',
         '30': "1.875rem",         // UseCase: left-section--one
         '33.5': '2.1rem',
+        "33.8": "2.8rem",
 
         "34": "2.1263rem",
-        "33.8": "2.5375rem",
+        "34.5": "2.5375rem",      // UseCase: section-three
+        "35": "3.3125rem",        // UseCase: section-three
         '53': "3.35rem",
         '66': "4.125rem",
       },
@@ -83,8 +105,9 @@ module.exports = {
       lineHeight: {
         '16': "1.1",
         '15': '5.5rem',
+        '15.5': '5rem',
         '17': '2.75rem',
-        '14.8': '1.4844rem'
+        '14.8': '1.4844rem',
       },
       fontFamily: {
         "sans": ['"Open Sans", sans-serif'],
@@ -118,16 +141,32 @@ module.exports = {
       zIndex: {
         "1": "1",               // UseCase: section-one
         '100': '100',           // UseCase: 
-      }
+      },
+      animation: {
+        fade: 'fade 40s linear infinite',
+      },
+      keyframes: {
+        fade:  {
+          '0%': { 
+            transform: 'translateZ(0)' 
+          },
+          '100%': { 
+            transform: 'translate3d(-100%, 0, 0)' 
+          },
+        }
+      },
     },
     letterSpacing: {
-      tightened: '-1.8px',
       tighter: ".03em",
       tightest: '0.065em',
       
       extratight: '0.3px',
-      extratighter: '-1px',
+      extratighter: '1.8px',
       extratightest: '3px',
+
+      tightener: '1px',
+      extratightener: "0.015em",
+      extratightenest: "0.256rem",
     },
   },
   // plugins: [],

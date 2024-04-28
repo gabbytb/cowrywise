@@ -18,8 +18,13 @@ const HomeSectionTwo = () => {
                     <h2 className="text-12xl/15 font-firma font-semibold text-sky-950/100 -tracking-tightest mt-66 mb-2.5 h-42 -ml-0.5 opacity-100 visible">
                         Get a <span className="italic font-light font-sans opacity-100 visible">little</span>&nbsp; richer each day
                     </h2>
-                    <h5 className="text-3xl font-medium tracking-tightened text-sky-950/100 mt-6 mb-21 pr-120">One small step today, a giant leap for tomorrow.</h5>
-                    <ButtonLink linkURL="https://cowrywise.com/choose-account" label="Start your financial journey" />
+                    <h5 className="text-3xl font-medium -tracking-extratighter text-sky-950/100 mt-6 mb-21 pr-120">One small step today, a giant leap for tomorrow.</h5>
+                    <ButtonLink 
+                        linkURL="https://cowrywise.com/choose-account" 
+                        label="Start your financial journey" 
+                        btnProps="mt-5 px-4.5 min-h-12 w-258 bg-blue-600" 
+                        textProps="text-white text-base/17 font-semibold" 
+                    />
                 </div>
 
 
