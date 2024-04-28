@@ -9,7 +9,9 @@ module.exports = {
         "12xl": "5rem",           // Usecase: sections h-tags
         "13xl": "19px",
         "14xl": "0.9625rem",      // Usecase: nav-menu li button
-        "15xl": "0.9375rem"
+        "15xl": "0.9375rem",
+        "16xl": "7.5rem",         // UseCase: section-three
+        
       },
       height: {
         "4.5": "1em",             // Usecase: Dropdown
@@ -31,10 +33,14 @@ module.exports = {
         "830": "51.875rem",
         "840": "52.5rem",         // UseCase: section-one div-2
         "850": "53.125rem",       // UseCase: section-one
+        "870": "56.3945rem",      // UseCase: section-three
         "100": "1042.83px",       // UseCase: section-three bg-height
       },
       minHeight: {
         "98": "40.625rem",        // UseCase: left-section--one
+      },
+      maxHeight: {
+        "98": "58.9141rem",       // UseCase: section-three
       },
       width: {
         "4.5": "1em",             // Usecase: Dropdown
@@ -44,21 +50,25 @@ module.exports = {
         "258": "16.1699rem",
         "300": "18.75rem",        // UseCase: section-two card-item
         // "310": "19.3789rem",
+        "320": "30.875rem",       // UseCase: section-three cash-input
         "520": "32.5rem",
       },
       maxWidth: {
         '98': '80%',
         '99': '310.062px',
+        "110": "54.5625rem",
       },
       margin: {
         '1.25': "0.3125rem",      // Usecase: Brand
         
         '15': "0.9375rem",
+        '17': "1.05rem",
         '21': '1.3125rem',
         '30': "1.875rem",         // UseCase: left-section--one
         '33.5': '2.1rem',
 
-
+        "34": "2.1263rem",
+        "33.8": "2.5375rem",
         '53': "3.35rem",
         '66': "4.125rem",
       },
@@ -77,10 +87,10 @@ module.exports = {
         '14.8': '1.4844rem'
       },
       fontFamily: {
-        "sans": ["Open Sans", "sans-serif"],
+        "sans": ['"Open Sans", sans-serif'],
         "poppins": ["Poppins", "sans-serif"],
         "firma": ["BR Firma", "sans-serif"],
-        // 'cw-br-firma': ['"CW BR Firma"', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', '"Helvetica Neue"', 'sans-serif'],
+        'br-firma': ['BR Firma', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', 'sans-serif'],
       },
       backgroundImage: {
         'dropdown': "url(/src/assets/icons/dropdown.svg)",
@@ -89,6 +99,7 @@ module.exports = {
       inset: {
         '3': '3px',
         '1.25': "0.3125rem",
+        '2.25': "0.9375rem",
         '7.5': '1.875rem',      // Usecase: nav-header
         '19.2': '1.2em',        // Usecase: has-dropdown:after
         '60': "60px",           // UseCase: section-one
@@ -111,8 +122,9 @@ module.exports = {
     },
     letterSpacing: {
       tightened: '-1.8px',
+      tighter: ".03em",
       tightest: '0.065em',
-
+      
       extratight: '0.3px',
       extratighter: '-1px',
       extratightest: '3px',

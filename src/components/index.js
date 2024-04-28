@@ -3,7 +3,7 @@ import SlideCard from "./SlideCard";
 import Button from "./Button";
 import ButtonLink from "./ButtonLink";
 import SmallCards from "./SmallCards";
-
+import RangeSlider from "./RangeSlider";
 
 
 
@@ -13,4 +13,5 @@ export {
     Button,
     ButtonLink,
     SmallCards,
+    RangeSlider,
 }
