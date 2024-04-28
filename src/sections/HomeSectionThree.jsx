@@ -47,7 +47,7 @@ const HomeSectionThree = () => {
                         <div className="flex flex-col justify-center items-center">
                             <h3>Ready to start investing?</h3>
                             <ButtonLink linkURL="https://cowrywise.com/choose-account" label="Get Started" />
-                            <Button label="Not yet" />
+                            <Button label="Not yet" bgColor="bg-transparent" textColor="text-black" />
                         </div>
                     </div>
                 </div>
