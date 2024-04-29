@@ -7,6 +7,8 @@ module.exports = {
         'transparent-white': "hsla(0, 0%, 100%, .7)",
         'currency': "#6c82a3",
         'light-blue': "#0066f5",
+        "dark-blue": "#082552",
+        "light-black": "rgba(8, 37, 82, .07)",
       },
       fontSize: {
         "10xl": "0.8125rem",      // Usecase: top-bar.Link
@@ -25,22 +27,23 @@ module.exports = {
         "4.5": "1em",             // Usecase: Dropdown
         "7.8": "1.9531rem",
         "14.2": "3.6182rem",      // Usecase: nav-menu
+        "17.5": "2.5rem",
         "18": "4.375rem",         // Usecase: nav-header
-
-        "44": "2.75rem",
         "50": "3.125rem",
         "60": "3.75rem",          // Usecase: right-section--one
         
-        "78": "4.875rem",
         "42": "10.5625rem",
         "42.2": "14.5469rem",     // UseCase: section-four
         "42.5": "17.3691rem",     // UseCase: section-four
         "42.8": "20rem",
         "43": "20.3467rem",       // UseCase: section-three
         "43.5": "25rem",          // UseCase: section-four
+        "44": "2.75rem",
         "48.5": "58.75em",        // Usecase: section-one
+        "78": "4.875rem",
         "650": "40.625rem",       // Usecase: section-one slide
         "720": "45rem",
+        "725": "47.5rem",
         "730": "47.9941rem",
         "780": "48.75rem",
         "830": "51.875rem",
@@ -59,7 +62,7 @@ module.exports = {
       width: {
         "4.5": "1em",             // Usecase: Dropdown
         "9.6": "9.625rem",        // Usecase: Brand Logo
-
+        "17.5": "2.5rem",
         "98": "25rem",            // UseCase: section-one
         "258": "16.1699rem",
         "300": "18.75rem",        // UseCase: section-two card-item
@@ -67,6 +70,7 @@ module.exports = {
         "108": "30rem",
         "320": "30.875rem",       // UseCase: section-three cash-input
         "330": "47.375rem",
+        "400": "50%",
         "500": "120%",
         "520": "32.5rem",
         "530": "50rem",
@@ -78,9 +82,9 @@ module.exports = {
       maxWidth: {
         '98': '80%',
         '99': '310.062px',
-        "105": "41.6666666667%",   // UseCase: section-four
+        "105": "41.6666666667%",   // UseCase: section four,five,
         "108": "30rem",
-        "110": "54.5625rem",
+        "110": "54.5625rem",      
       },
       margin: {
         '1.25': "0.3125rem",      // Usecase: Brand
@@ -97,6 +101,7 @@ module.exports = {
         "35": "3.3125rem",        // UseCase: section-three
         '53': "3.35rem",
         '66': "4.125rem",
+        "68": "6.8125rem",
       },
       padding: {
         '4.4': '1.125rem',
@@ -130,15 +135,23 @@ module.exports = {
         '2.25': "0.9375rem",
         '7.5': '1.875rem',      // Usecase: nav-header
         '19.2': '1.2em',        // Usecase: has-dropdown:after
+        "50": "3.25rem",
         '60': "60px",           // UseCase: section-one
         '80': "80px",           // UseCase: section-one
         '100': "100px",
+        "1/50": "1%",
+        '4/12': "8%",
+        "4/14": "28%",
+        "4/15": "32%",
+        "5/12": "56%",
+        
       },
       gridTemplateColumns: {
         "16": "706.312px 724px",  // UseCase: section-two
       },
       boxShadow: {
         "3xl": "0 8px 12px -1px rgba(0, 102, 245, .28)",
+        "4xl": "1px 1px 2px rgba(8, 37, 82, .1)",
       },
       opacity: {
         '6': ".6",

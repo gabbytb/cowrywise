@@ -1,5 +1,5 @@
 import { Nav } from "../components";
-import { HomeSectionOne, HomeSectionTwo, HomeSectionThree, HomeSectionFour, } from "../sections";
+import { HomeSectionOne, HomeSectionTwo, HomeSectionThree, HomeSectionFour, HomeSectionFive, } from "../sections";
 
 
 
@@ -19,7 +19,7 @@ const Home = () => {
 
                     <HomeSectionFour />
 
-
+                    <HomeSectionFive />
                 </div>
             </main>
         </>

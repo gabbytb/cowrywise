@@ -68,7 +68,7 @@ const HomeSectionThree = () => {
 
 
                         {/* third div */}
-                        <div className="flex flex-col justify-center items-center  top-0 bottom-0 left-0 right-0 bg-transparent-white">
+                        <div className="flex flex-col justify-center items-center absolute top-0 bottom-0 left-0 right-0 bg-transparent-white">
                             <h3 className="text-3xl/tight font-bold font-firma text-slate-700 mt-8 mb-7">Ready to start investing?</h3>
                             <ButtonLink 
                                 linkURL="https://cowrywise.com/choose-account" 
