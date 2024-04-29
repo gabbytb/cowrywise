@@ -179,24 +179,30 @@
 
 
     /* Section four */
-    /* .section-four .slider-wrapper {
-        @apply mt-10 w-screen h-43.5 overflow-hidden
+    .section-four .slider-wrapper {
+        @apply mt-10 mb-0 mx-0 w-screen h-43.5 overflow-hidden relative
     }
-    .section-four .slider-wrapper .inner-slider-wrapper {
-        @apply flex absolute w-500 h-42.8 animate-fade 
+    .section-four .slider-wrapper .slides-wrap {
+        @apply w-500 flex absolute animate-fade      
+        /* animate-fade  */
     }
-    .section-four .slider-wrapper .slider-items {
+    .section-four .slider-wrapper .slides {
         @apply inline-flex shrink-0
     }
-    .section-four .slider-wrapper .slider-items .slider-item {
-        @apply flex justify-center items-center w-108 max-w-108 h-42.8 min-h-42.8
+    .section-four .slider-wrapper .slides .slider-item {
+        @apply flex justify-center items-center mr-8 p-8 h-42.8 min-h-42.8 w-330 max-w-108 rounded-3xl border border-light-blue relative text-center
     }
-    .section-four .slider-wrapper .slider-items .slider-item h4 {
-        @apply relative
+    .section-four .slider-wrapper .slides .slider-item h4 {
+        @apply text-19xl/16.5 font-semibold -tracking-tightest font-firma text-light-blue w-full relative text-left 
     }
-    .section-four .slider-wrapper .slider-items .slider-item h4::before {
+    .section-four .slider-wrapper .slides .slider-item h4::before {
         @apply content-["“"] absolute -top-60 left-0 font-normal text-12xl text-blue-500
-    } */
+    }
     /* Section four */
+
+
     
+    /* Section five */
+    
+    /* Section five */
 }

@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'transparent-white': "hsla(0, 0%, 100%, .7)",
         'currency': "#6c82a3",
+        'light-blue': "#0066f5",
       },
       fontSize: {
         "10xl": "0.8125rem",      // Usecase: top-bar.Link
@@ -17,6 +18,7 @@ module.exports = {
         "16xl": "7.5rem",         // UseCase: section-three
         "17xl": "2.4375rem",
         "18xl": "4rem",           // UseCase: section-four
+        "19xl": "3.125rem",
         
       },
       height: {
@@ -33,7 +35,7 @@ module.exports = {
         "42": "10.5625rem",
         "42.2": "14.5469rem",     // UseCase: section-four
         "42.5": "17.3691rem",     // UseCase: section-four
-        "42.8": "20rem",          // UseCase: section-four
+        "42.8": "20rem",
         "43": "20.3467rem",       // UseCase: section-three
         "43.5": "25rem",          // UseCase: section-four
         "48.5": "58.75em",        // Usecase: section-one
@@ -49,7 +51,7 @@ module.exports = {
       minHeight: {
         "42.8": "20rem",
         "98": "40.625rem",        // UseCase: left-section--one
-        "99": "56.3945rem",      // UseCase: section-three
+        "99": "56.3945rem",       // UseCase: section-three
       },
       maxHeight: {
         "98": "58.9141rem",       // UseCase: section-three
@@ -64,11 +66,13 @@ module.exports = {
         // "310": "19.3789rem",
         "108": "30rem",
         "320": "30.875rem",       // UseCase: section-three cash-input
+        "330": "47.375rem",
+        "500": "120%",
         "520": "32.5rem",
         "530": "50rem",
-        "500": "120%",
       },
       minWidth: {
+        "108": "30rem",
         "128": "19.9609rem",
       },
       maxWidth: {
@@ -106,6 +110,7 @@ module.exports = {
         '16': "1.1",
         '15': '5.5rem',
         '15.5': '5rem',
+        "16.5": "3.9063rem",
         '17': '2.75rem',
         '14.8': '1.4844rem',
       },
