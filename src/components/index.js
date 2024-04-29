@@ -5,6 +5,8 @@ import ButtonLink from "./ButtonLink";
 import SmallCards from "./SmallCards";
 import SliderCards from "./SliderCards";
 import RangeSlider from "./RangeSlider";
+import StepsCard from "./StepsCard";
+
 
 
 
@@ -16,4 +18,5 @@ export {
     SmallCards,
     SliderCards,
     RangeSlider,
+    StepsCard,
 }

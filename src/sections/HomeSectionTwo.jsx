@@ -22,7 +22,7 @@ const HomeSectionTwo = () => {
                     <ButtonLink 
                         linkURL="https://cowrywise.com/choose-account" 
                         label="Start your financial journey" 
-                        btnProps="mt-5 px-4.5 min-h-12 w-258 bg-blue-600" 
+                        btnProps="flex justify-center items-center mt-5 px-4.5 min-h-12 w-258 bg-blue-600" 
                         textProps="text-white text-base/17 font-semibold" 
                     />
                 </div>

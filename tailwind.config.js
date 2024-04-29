@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
+    backgroundPosition: {
+      'top-left': "-120% -120px",
+    },
     extend: {
       colors: {
         'transparent-white': "hsla(0, 0%, 100%, .7)",
@@ -9,6 +12,8 @@ module.exports = {
         'light-blue': "#0066f5",
         "dark-blue": "#082552",
         "light-black": "rgba(8, 37, 82, .07)",
+        "light-white": "#fcfcfc",
+        "dark-gray": "rgba(162, 227, 252, .4)",
       },
       fontSize: {
         "10xl": "0.8125rem",      // Usecase: top-bar.Link
@@ -21,11 +26,12 @@ module.exports = {
         "17xl": "2.4375rem",
         "18xl": "4rem",           // UseCase: section-four
         "19xl": "3.125rem",
-        
+        "20xl": "3.0375rem",
       },
       height: {
         "4.5": "1em",             // Usecase: Dropdown
         "7.8": "1.9531rem",
+        "9.8": "9.7578rem",
         "14.2": "3.6182rem",      // Usecase: nav-menu
         "17.5": "2.5rem",
         "18": "4.375rem",         // Usecase: nav-header
@@ -62,7 +68,9 @@ module.exports = {
       width: {
         "4.5": "1em",             // Usecase: Dropdown
         "9.6": "9.625rem",        // Usecase: Brand Logo
+        "9.8": "156.125px",
         "17.5": "2.5rem",
+        "60": "3.75rem",
         "98": "25rem",            // UseCase: section-one
         "258": "16.1699rem",
         "300": "18.75rem",        // UseCase: section-two card-item
@@ -76,10 +84,12 @@ module.exports = {
         "530": "50rem",
       },
       minWidth: {
+        "9.8": "9.7578rem",
         "108": "30rem",
         "128": "19.9609rem",
       },
       maxWidth: {
+        '97': "70%",
         '98': '80%',
         '99': '310.062px',
         "105": "41.6666666667%",   // UseCase: section four,five,
@@ -88,6 +98,7 @@ module.exports = {
       },
       margin: {
         '1.25': "0.3125rem",      // Usecase: Brand
+        "4.6": "1.85em",
         
         '15': "0.9375rem",
         '17': "1.05rem",
@@ -99,13 +110,16 @@ module.exports = {
         "34": "2.1263rem",
         "34.5": "2.5375rem",      // UseCase: section-three
         "35": "3.3125rem",        // UseCase: section-three
+        '50': '3.125rem',
         '53': "3.35rem",
+        '60': '3.75rem',
         '66': "4.125rem",
         "68": "6.8125rem",
       },
       padding: {
         '4.4': '1.125rem',
         '4.5': '1.4rem',
+        "4.6": "1.85em",
         '50': '3.125rem',         // UseCase: sections: 1, 2, 
         '60': '3.75rem',          // UseCase: right-section--one
         '120': '7.5rem',          // UseCase: section-two h5
@@ -113,6 +127,7 @@ module.exports = {
       },
       lineHeight: {
         '16': "1.1",
+        "16.2": "1.55",
         '15': '5.5rem',
         '15.5': '5rem',
         "16.5": "3.9063rem",
@@ -128,11 +143,14 @@ module.exports = {
       backgroundImage: {
         'dropdown': "url(/src/assets/icons/dropdown.svg)",
         'investments': "url(/src/assets/images/investments.svg)",
+        "account": "url(/src/assets/images/bg-new-account.svg)",
       },
       inset: {
         '3': '3px',
         '1.25': "0.3125rem",
         '2.25': "0.9375rem",
+        "6.6": "1.0625rem",
+        "6.8": "1.125rem",
         '7.5': '1.875rem',      // Usecase: nav-header
         '19.2': '1.2em',        // Usecase: has-dropdown:after
         "50": "3.25rem",
@@ -143,8 +161,7 @@ module.exports = {
         '4/12': "8%",
         "4/14": "28%",
         "4/15": "32%",
-        "5/12": "56%",
-        
+        "5/12": "56%",              
       },
       gridTemplateColumns: {
         "16": "706.312px 724px",  // UseCase: section-two
@@ -155,6 +172,7 @@ module.exports = {
       },
       opacity: {
         '6': ".6",
+        '8': "0.8",
       },
       zIndex: {
         "1": "1",               // UseCase: section-one
@@ -185,6 +203,9 @@ module.exports = {
       tightener: '1px',
       extratightener: "0.015em",
       extratightenest: "0.256rem",
+
+      compressed: ".04em",
+      extracompressed: "0.015em",
     },
   },
   // plugins: [],

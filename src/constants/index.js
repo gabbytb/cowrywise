@@ -19,6 +19,13 @@ export const sliderItems = [
 ]
 
 
+export const stepsInfo = [
+    { title: "Create an account", subText: "Sign up for an account with your name, email and phone number." },
+    { title: "Add a payment method", subText: "Using your debit card or a bank transfer, setup your first plan." },
+    { title: "Watch your money grow", subText: "Sit back, relax & let your money work for you all day, everyday." },
+]
+
+
 
 // export const sectionTwoCards = [
 //     { title: "Build your savings" , subTitle: "Consistently automate your savings while setting realistic goals." },
