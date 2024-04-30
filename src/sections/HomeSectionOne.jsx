@@ -43,7 +43,13 @@ const HomeSectionOne = () => {
                         <h6 className="text-5xl/tight h-60 font-firma font-normal text-sky-950/100 -tracking-extratightest mt-4 mb-33.5">Invest wisely. Grow wealth.</h6>
                         <form className="flex flex-1 max-w-98 h-50 font-poppins">
                             <input type="email" required="required" name="email" placeholder="Your email..." className="border border-1 mr-2.5 max-w-99 rounded-md py-6 px-4.4 flex flex-1" /> 
-                            <Button btnType="submit" label="Start Investing" btnLink="https://cowrywise.com/choose-account" bgColor="bg-blue-600/100" textProps="text-white text-sm font-semibold" />
+                            <Button 
+                                btnType="submit" 
+                                label="Start Investing" 
+                                btnLink="https://cowrywise.com/choose-account" 
+                                bgColor="bg-blue-600/100" 
+                                textProps="text-white text-sm font-semibold"
+                            />
                         </form>
                     </div>
                 </div>
